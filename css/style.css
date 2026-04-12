@@ -125,6 +125,11 @@ body {
   padding: 100px 0;
 }
 
+#about,
+#contact {
+  scroll-margin-top: 100px;
+}
+
 .section-dark {
   background-color: #0f1629;
 }
@@ -203,7 +208,8 @@ body {
    SKILLS
 ========================= */
 
-.skill-card {
+.skill-card,
+.education-card {
   background: #0f1629;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 18px;
@@ -211,7 +217,8 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.skill-card:hover {
+.skill-card:hover,
+.education-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 18px 36px rgba(0, 0, 0, 0.4);
 }
@@ -222,6 +229,63 @@ body {
   display: flex;
   align-items: center;
   gap: 0.6rem;
+}
+
+.education-date,
+.education-school {
+  display: block;
+  color: #93c5fd;
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
+
+.education-title {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.education-title i {
+  font-size: 1.4rem;
+  color: #6366f1;
+}
+
+.education-description {
+  color: #cbd5f5;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.course-list {
+  display: grid;
+  gap: 1rem;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.course-item {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.course-name {
+  font-weight: 600;
+  color: #e5e7eb;
+  margin: 0;
+  font-size: 0.97rem;
+}
+
+.course-meta {
+  color: #94a3b8;
+  font-size: 0.88rem;
 }
 
 .skill-title i {
@@ -374,6 +438,20 @@ body {
   .timeline-content {
     margin-left: 24px;
     padding: 1.2rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-toggler {
+    display: none !important;
+  }
+
+  .navbar-collapse {
+    display: none !important;
+  }
+
+  .nav-lang-mobile {
+    display: inline-flex !important;
   }
 }
 
