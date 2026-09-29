@@ -262,7 +262,7 @@ body {
 .course-list {
   display: grid;
   gap: 1rem;
-  max-width: 780px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -286,6 +286,36 @@ body {
 .course-meta {
   color: #94a3b8;
   font-size: 0.88rem;
+}
+
+.course-item-featured {
+  position: relative;
+  overflow: hidden;
+  padding: 1.5rem 1.75rem;
+  background: linear-gradient(115deg, rgba(79, 70, 229, 0.2), rgba(6, 182, 212, 0.08));
+  border: 1px solid rgba(99, 102, 241, 0.48);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+.course-item-featured::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: linear-gradient(#818cf8, #22d3ee);
+}
+
+.course-item-featured .course-name {
+  font-size: 1.1rem;
+}
+
+.course-item-featured .course-meta {
+  color: #c4b5fd;
+}
+
+.course-item-featured .course-meta i {
+  margin-right: 0.35rem;
+  color: #22d3ee;
 }
 
 .skill-title i {
@@ -593,4 +623,3 @@ body {
   transform: scale(1.05);
   transition: transform 0.2s ease;
 }
-
