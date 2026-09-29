@@ -535,44 +535,72 @@
     <!-- COURSES -->
     <section id="courses" class="section-padding">
         <div class="container">
-            <div class="section-header text-center mb-4">
+            <div class="section-header text-center mb-5">
                 <h2 class="section-title">Courses</h2>
-                <p class="section-subtitle">Additional training and short courses, featuring my Full Stack program.</p>
+                <p class="section-subtitle">Continuous learning in mobile, web development and product design.</p>
             </div>
 
-            <div class="course-list">
-                <div class="course-item course-item-featured">
-                    <p class="course-name">Despertar.dev Web FullStack – Growdev (Sponsored by SICREDI)</p>
-                    <span class="course-meta"><i class="bi bi-patch-check-fill" aria-hidden="true"></i> Completed program · 1,000 hours · 2024</span>
+            <article class="course-featured mb-5">
+                <div class="course-featured-main">
+                    <span class="course-eyebrow"><i class="bi bi-stars" aria-hidden="true"></i> Featured · Growdev</span>
+                    <h3>Mobile Development with Flutter</h3>
+                    <p class="course-featured-description">Hands-on training in Dart and Flutter, from programming logic to complete mobile apps, including API integration and native device features.</p>
+                    <div class="course-tags" aria-label="Technologies and topics">
+                        <span>Dart</span><span>Flutter</span><span>MobX</span><span>Firebase</span><span>APIs</span><span>Google Maps</span>
+                    </div>
                 </div>
-                <div class="course-item">
-                    <p class="course-name">Complete iOS 11 Swift 4 Development Course - Build 20 Apps – Udemy</p>
-                    <span class="course-meta">50 hours · 2023</span>
+                <div class="course-stats" aria-label="Course details">
+                    <div class="course-stat"><i class="bi bi-clock" aria-hidden="true"></i><span>Duration</span><strong>65 hours</strong></div>
+                    <div class="course-stat"><i class="bi bi-journals" aria-hidden="true"></i><span>Content</span><strong>12 modules</strong></div>
+                    <div class="course-stat"><i class="bi bi-calendar3" aria-hidden="true"></i><span>Period</span><strong>Jan – Jul 2026</strong></div>
                 </div>
-                <div class="course-item">
-                    <p class="course-name">Bubble Essentials – Comunidade sem Codar</p>
-                    <span class="course-meta">50 hours · 2023</span>
-                </div>
-                <div class="course-item">
-                    <p class="course-name">Android App Development using Kotlin - Udemy</p>
-                    <span class="course-meta">40 hours · 2022</span>
-                </div>
-                <div class="course-item">
-                    <p class="course-name">Santander Mobile Developer Bootcamp - DIO</p>
-                    <span class="course-meta">80 hours · 2022</span>
-                </div>
-                <div class="course-item">
-                    <p class="course-name">Figma 2022: From Absolute Beginner to Professional - Udemy</p>
-                    <span class="course-meta">2 hours · 2022</span>
-                </div>
-                <div class="course-item">
-                    <p class="course-name">Figma from Zero to Advanced UX/UI</p>
-                    <span class="course-meta">2021</span>
-                </div>
-                <div class="course-item">
-                    <p class="course-name">Beginner Software Programmer Bootcamp - IGTI</p>
-                    <span class="course-meta">148 hours · 2021</span>
-                </div>
+                <details class="course-modules">
+                    <summary>Explore course topics <i class="bi bi-chevron-down" aria-hidden="true"></i></summary>
+                    <div class="module-grid">
+                        <span><i class="bi bi-check-circle-fill"></i>Dart programming logic</span>
+                        <span><i class="bi bi-check-circle-fill"></i>Object oriented programming with Dart</span>
+                        <span><i class="bi bi-check-circle-fill"></i>Cross platform mobile fundamentals</span>
+                        <span><i class="bi bi-check-circle-fill"></i>Forms and navigation</span>
+                        <span><i class="bi bi-check-circle-fill"></i>State management with MobX</span>
+                        <span><i class="bi bi-check-circle-fill"></i>Animations and API integration</span>
+                        <span><i class="bi bi-check-circle-fill"></i>Native features and offline storage</span>
+                        <span><i class="bi bi-book"></i>Themes, animations and navigation</span>
+                        <span><i class="bi bi-book"></i>Google Maps and location</span>
+                        <span><i class="bi bi-book"></i>Firebase and Social Login</span>
+                        <span><i class="bi bi-book"></i>Architecture and automated tests</span>
+                    </div>
+                </details>
+            </article>
+
+            <div class="course-grid">
+                <article class="course-card course-card-secondary">
+                    <span class="course-card-icon"><i class="bi bi-code-slash" aria-hidden="true"></i></span>
+                    <div><span class="course-card-label">Growdev · Sicredi Program</span><h3>Despertar.dev Web Full Stack</h3><p>Intensive Full Stack web development program covering best practices, version control and hands-on projects.</p><span class="course-card-meta">1,000 hours <b>·</b> 2024</span></div>
+                </article>
+                <article class="course-card">
+                    <span class="course-card-icon"><i class="bi bi-apple" aria-hidden="true"></i></span>
+                    <div><span class="course-card-label">Udemy</span><h3>iOS Development with Swift</h3><p>Complete Swift 4 course with 20 app projects.</p><span class="course-card-meta">50 hours <b>·</b> 2023</span></div>
+                </article>
+                <article class="course-card">
+                    <span class="course-card-icon"><i class="bi bi-bezier2" aria-hidden="true"></i></span>
+                    <div><span class="course-card-label">Comunidade sem Codar</span><h3>Bubble Essentials</h3><p>Fundamentals of building applications with no-code tools.</p><span class="course-card-meta">50 hours <b>·</b> 2023</span></div>
+                </article>
+                <article class="course-card">
+                    <span class="course-card-icon"><i class="bi bi-android2" aria-hidden="true"></i></span>
+                    <div><span class="course-card-label">Udemy</span><h3>Android App Development with Kotlin</h3><p>Building Android applications using Kotlin.</p><span class="course-card-meta">40 hours <b>·</b> 2022</span></div>
+                </article>
+                <article class="course-card">
+                    <span class="course-card-icon"><i class="bi bi-phone" aria-hidden="true"></i></span>
+                    <div><span class="course-card-label">DIO · Santander</span><h3>Mobile Developer Bootcamp</h3><p>Learning track focused on mobile development.</p><span class="course-card-meta">80 hours <b>·</b> 2022</span></div>
+                </article>
+                <article class="course-card">
+                    <span class="course-card-icon"><i class="bi bi-palette" aria-hidden="true"></i></span>
+                    <div><span class="course-card-label">UI/UX Design</span><h3>Figma: beginner to advanced</h3><p>Figma courses focused on interface and user experience design.</p><span class="course-card-meta">2021 – 2022</span></div>
+                </article>
+                <article class="course-card">
+                    <span class="course-card-icon"><i class="bi bi-laptop" aria-hidden="true"></i></span>
+                    <div><span class="course-card-label">IGTI</span><h3>Beginner Software Developer Bootcamp</h3><p>Programming and software development fundamentals.</p><span class="course-card-meta">148 hours <b>·</b> 2021</span></div>
+                </article>
             </div>
         </div>
     </section>
