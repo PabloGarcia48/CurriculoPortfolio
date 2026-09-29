@@ -265,6 +265,8 @@ body {
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
 .course-modules { margin-top: 0.9rem; border-top: 1px solid rgba(148, 163, 184, 0.15); }
 .course-modules summary { display: flex; justify-content: space-between; align-items: center; gap: 0.75rem; padding: 0.8rem 0 0.1rem; color: #cbd5e1; font-size: 0.86rem; font-weight: 600; cursor: pointer; list-style: none; }
 .course-modules summary::-webkit-details-marker { display: none; }
